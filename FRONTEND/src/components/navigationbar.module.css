@@ -1,0 +1,51 @@
+.navigationBar {
+  width: 100%;
+  height: 90px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Change gap to justify-content */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-size: 30px;
+}
+
+.pages {
+  text-decoration: none;
+  color: #051536;
+  padding: 10px;
+  border-radius: 20px;
+  gap: 10px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Change align-items to center */
+}
+
+.pages :hover,
+.pages.active {
+  background-color: aquamarine;
+  color: #ffffff;
+}
+
+.medscanIcon {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.logo {
+  width: 341px;
+  height: 118px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.medscanTxt {
+  color: #051536;
+}
